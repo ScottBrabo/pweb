@@ -330,26 +330,6 @@ echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
 echo -e "WEB GESTOR-SSH" | figlet
 echo -e "                              \033[1;31mBy @scottssh\033[1;36m"
-echo ""
-chave=$(curl -sSL "https://raw.githubusercontent.com/ScottBrabo/pweb/main/raw/painel/install/chave") &>/dev/null
-
-read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
-    
-         if [[ "$key" = "$chave" ]]
-          then
-               echo -e "[*] VALIDANDO A CHAVE DE INSTALAÇÃO"
-                sleep 2
-                echo $key > /bin/chave_inst
-                echo -e "[*] CHAVE ACEITA"
-                sleep 2
-            else
-            echo "[-] ESSA CHAVE NÃO É VÁLIDA!"
-            sleep 3
-            clear
-            cat /dev/null > ~/.bash_history && history -c
-            rm /bin/ubuinst* > /dev/null 2>&1
-            exit;
-          fi
 install_continue
 install_continue2
 [[ $(grep -c "prohibit-password" /etc/ssh/sshd_config) != '0' ]] && {
