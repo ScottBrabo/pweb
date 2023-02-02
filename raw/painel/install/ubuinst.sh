@@ -155,6 +155,7 @@ else
   apt install software-properties-common
   apt update -y
   apt install figlet -y
+  apt install lolcat -y
   apt install curl -y
   add-apt-repository ppa:ondrej/php -y
   apt update -y
