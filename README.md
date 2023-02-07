@@ -6,12 +6,18 @@
 Tinha feito kkkkk então pode apresentar alguns bugs.
 
 ⬇️ Instalador
-```bash <(wget -qO- https://raw.githubusercontent.com/ScottBrabo/pweb/main/raw/painel/install/ubuinst.sh)```
+```
+bash <(wget -qO- https://raw.githubusercontent.com/ScottBrabo/pweb/main/raw/painel/install/ubuinst.sh)
+```
 
 🔑 Key Ilimitada
-```@scottssh```
+```
+@scottssh
+```
 
 🔄 Sincronizador
-```bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincoriginal.sh)```
+```
+bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincoriginal.sh)
+```
 
 🔥Use e abuse 🍷
